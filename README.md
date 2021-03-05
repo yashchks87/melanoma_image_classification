@@ -1,5 +1,5 @@
-# Dog and cats image classification
-Convolutional neural networks using DNN to classify images between dogs and cats
+# Melanoma image classification
+Convolutional neural networks using DNN to classify images between Melanoma positive and negative images. Binary classification problem.
 
 ## Model comparison
 | Algorithm Name/ Metric Name | AUC           |
