@@ -1,6 +1,16 @@
 # Dog and cats image classification
 Convolutional neural networks using DNN to classify images between dogs and cats
 
+## Model comparison
+| Algorithm Name/ Metric Name | AUC           |
+| --------------------------- | ------------- |
+| VGG16                       | 77.232        | 
+| Inception                   | 67.00         | 
+| VGG19                       | 48.85         | 
+| Efficient net 6*            | 87.3          |
+
+ *Efficinet net has been used with label smoothing 
+
 ## Project brief
 Hello world of computer vision dataset of Dogs and Cats image is used to perform. Dataset was taken from Kaggle. Supervised computer vision problem; used DNN models to train model. 
 
@@ -33,6 +43,10 @@ Dataset contains more than 25000 training and 12500 test image dataset. Which co
 * Keras
 * GPU implementation
 * CV2
+* Colab
+* Xception
+* EfficientNet
+* glob, math
 
 ## Authors
 * [Yash Choksi](https://www.linkedin.com/in/choksiyash/)
