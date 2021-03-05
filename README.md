@@ -9,29 +9,30 @@ Convolutional neural networks using DNN to classify images between dogs and cats
 | VGG19                       | 48.85         | 
 | Efficient net 6*            | 87.3          |
 
- *Efficinet net has been used with label smoothing 
+ *Efficinet net has been used with label smoothing of 0.05
 
 ## Project brief
-Hello world of computer vision dataset of Dogs and Cats image is used to perform. Dataset was taken from Kaggle. Supervised computer vision problem; used DNN models to train model. 
+* This project is been taken as [kaggle competition](https://www.kaggle.com/c/siim-isic-melanoma-classification) for melannoma image classification challange. 
 
 ### Dataset Description
-Dataset contains more than 25000 training and 12500 test image dataset. Which contains primarily Dogs and Cats as images. Target variable is defined as 1 = Dog and 0 = Cat.
+* This dataset has more than 33,000 images as trainning dataset and more than 10,000 images as test dataset. Dataset was hugely imbalanced. The samples with positive dataset was extremely less and negative as majority samples.
 
 ## Project flow
-* Data processing was handeled by some list of python libraries such as Glob for gettting all image files. Heavy emphasis on Tensorflow dataset API for preparing dataset for Neural netowrk. Data collected and then created user defined functions.
-* Created different visualizations which can able to support the claim made on dataset and which can be identified as fact from visualizations.
-* Dataset has many different images with different dimensions such as 1024x1024, 64x64 and many other image dimensions. Due to that neural network can't accept different dimenstion image so fixed dimension image was taken as 64x64. **The reason for this is that as we increase dimension size it starts overfitting data. And reducing than this creates underfit.**
-* Kept all channels data which is RGB 3 channels data. Used tensorflow string class to make sure to fetch class label. 
-* As whole model is implemented with GPU different charactics like Autotune and ignore order. As wee divide tasks of data preparation performs on CPU while neural network training happens on GPU. So ignore order hypeerparameter will help us to prepare data faster so CPU don't wait for data to come in sequence. It will start to act immediately which ever data it gets.
-* While number of files in each batch is 512 images. 
-* As model is creeated as very complex with many layers there is always scope of overfitting and it overfitted. So I implemented model with dropout points which can able to reduce overfitting, and I succedded too in reduce overfitting. 
-* Total number of epochs projected was 70 but we used early stopping criteria model stopped at 57th epoch and on every eepoch 100 batches of data has been used.
-* All above mentioned hyperparameter is taken after training with many different tuning of hyperparameters. 
-* **Final accuracy for training data: 90.13 and Validation Data: 90.73**
+* In this project the TPU is extremely utilised and parallel training. The dataset was hosted on Google cloud dataset and due to that TPU can be utilised. Here is [link]() for TPU and how it can be utilised in colab. Data directly used from GCS using GCS path.
+* After that there is numerous data augmentation things has been done like roatation, shear, zoom, horizontal flip, brightness and zue. Augmentation is very important in the case of this idea. After doing this there are almost 12 times different augmentation and due to that every epoch we trained on this augmented dataset. Using speciaized tennsorflow model creation function we can train more than 1 models in parallel. As 8 TPU threads are available we are training 8 models in parallell.
 
 ## Data visualization
-* **Number of examples of each class**
-![Class Distribution](./Class distribution.png)
+* **Age distribution of samples**
+![Age Distribution](./age_distribution.jpg)
+
+* **Class distribution of samples**
+![Class Distribution](./target_value_distribution.jpg)
+
+* **Gender distribution of samples**
+![Gender Distribution](./gender_distribution.jpg)
+
+* **Diagnosis distribution of samples**
+![Diagnosis Distribution](./types_of_diagnosis.jpg)
 
 
 ## Built with
