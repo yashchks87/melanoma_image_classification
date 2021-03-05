@@ -19,7 +19,8 @@ Convolutional neural networks using DNN to classify images between dogs and cats
 
 ## Project flow
 * In this project the TPU is extremely utilised and parallel training. The dataset was hosted on Google cloud dataset and due to that TPU can be utilised. Here is [link](https://heartbeat.fritz.ai/step-by-step-use-of-google-colab-free-tpu-75f8629492b3) for TPU and how it can be utilised in colab. Data directly used from GCS using GCS path.
-* After that there is numerous data augmentation things has been done like roatation, shear, zoom, horizontal flip, brightness and zue. Augmentation is very important in the case of this idea. After doing this there are almost 12 times different augmentation and due to that every epoch we trained on this augmented dataset. Using speciaized tennsorflow model creation function we can train more than 1 models in parallel. As 8 TPU threads are available we are training 8 models in parallell.
+* After that there is numerous data augmentation things has been done like roatation, shear, zoom, horizontal flip, brightness and zue. Augmentation is very important in the case of this idea. After doing this there are almost 12 times different augmentation and due to that every epoch we trained on this augmented dataset. Using speciaized tennsorflow model creation function we can train more than 1 models in parallel. As 8 TPU threads are available we are training 8 models in parallel.
+* User kaggle API extensively using that we can directly upload results to competition.
 
 ## Data visualization
 * **Age distribution of samples**
