@@ -57,5 +57,5 @@ Convolutional neural networks using DNN to classify images between Melanoma posi
 * [Yash Choksi](https://www.linkedin.com/in/choksiyash/)
 
 ## Acknowledgements
-* [Data set URL](https://www.kaggle.com/c/quora-insincere-questions-classification)
+* [Data set URL](https://www.kaggle.com/c/siim-isic-melanoma-classification)
 * [Book referred](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291)
