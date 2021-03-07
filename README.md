@@ -1,5 +1,5 @@
 # Melanoma image classification
-Convolutional neural networks using DNN to classify images between Melanoma positive and negative images. Binary classification problem.
+Convolutional neural networks using DNN to classify images between Melanoma positive and negative images. Binary classification problem. Please refer Meelanoma_updated.ipynb for final notebook.
 
 ## Model comparison
 | Algorithm Name/ Metric Name | AUC           |
