@@ -1,0 +1,35 @@
+  0%|          | 0/32 [00:00<?, ?it/s]/home/paperspace/.local/lib/python3.9/site-packages/torch/utils/data/dataloader.py:563: UserWarning: This DataLoader will create 10 worker processes in total. Our suggested max number of worker in current system is 8, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+
+
+
+
+
+
+
+
+
+100%|██████████| 32/32 [00:36<00:00,  1.13s/it]
+  0%|          | 0/11 [00:00<?, ?it/s]
+
+100%|██████████| 11/11 [00:14<00:00,  1.32s/it]
+  0%|          | 0/32 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+100%|██████████| 32/32 [00:37<00:00,  1.16s/it]
+  0%|          | 0/11 [00:00<?, ?it/s]
+
+100%|██████████| 11/11 [00:14<00:00,  1.33s/it]
+  0%|          | 0/32 [00:00<?, ?it/s]
+
+
+
+
+ 25%|██▌       | 8/32 [00:16<00:48,  2.04s/it]

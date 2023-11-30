@@ -1,0 +1,38 @@
+2023-11-30 16:41:35,715 INFO    StreamThr :6981 [internal.py:wandb_internal():88] W&B internal server running at pid: 6981, started at: 2023-11-30 16:41:35.714286
+2023-11-30 16:41:35,717 DEBUG   HandlerThread:6981 [handler.py:handle_request():138] handle_request: status
+2023-11-30 16:41:35,718 DEBUG   SenderThread:6981 [sender.py:send_request():317] send_request: status
+2023-11-30 16:41:35,720 DEBUG   SenderThread:6981 [sender.py:send():303] send: header
+2023-11-30 16:41:35,720 INFO    WriterThread:6981 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164130-1oyb839t/run-1oyb839t.wandb
+2023-11-30 16:41:35,721 DEBUG   SenderThread:6981 [sender.py:send():303] send: run
+2023-11-30 16:41:36,032 INFO    SenderThread:6981 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164130-1oyb839t/files
+2023-11-30 16:41:36,032 INFO    SenderThread:6981 [sender.py:_start_run_threads():928] run started: 1oyb839t with start time 1701362494.719219
+2023-11-30 16:41:36,033 DEBUG   SenderThread:6981 [sender.py:send():303] send: summary
+2023-11-30 16:41:36,033 INFO    SenderThread:6981 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-11-30 16:41:36,035 DEBUG   HandlerThread:6981 [handler.py:handle_request():138] handle_request: check_version
+2023-11-30 16:41:36,035 DEBUG   SenderThread:6981 [sender.py:send_request():317] send_request: check_version
+2023-11-30 16:41:36,101 DEBUG   HandlerThread:6981 [handler.py:handle_request():138] handle_request: run_start
+2023-11-30 16:41:36,102 DEBUG   HandlerThread:6981 [meta.py:__init__():34] meta init
+2023-11-30 16:41:36,102 DEBUG   HandlerThread:6981 [meta.py:__init__():49] meta init done
+2023-11-30 16:41:36,102 DEBUG   HandlerThread:6981 [meta.py:probe():215] probe
+2023-11-30 16:41:36,103 DEBUG   HandlerThread:6981 [meta.py:_setup_git():205] setup git
+2023-11-30 16:41:36,125 DEBUG   HandlerThread:6981 [meta.py:_setup_git():212] setup git done
+2023-11-30 16:41:36,126 DEBUG   HandlerThread:6981 [meta.py:_save_pip():53] save pip
+2023-11-30 16:41:36,127 DEBUG   HandlerThread:6981 [meta.py:_save_pip():67] save pip done
+2023-11-30 16:41:36,127 DEBUG   HandlerThread:6981 [meta.py:probe():253] probe done
+2023-11-30 16:41:36,129 DEBUG   SenderThread:6981 [sender.py:send():303] send: files
+2023-11-30 16:41:36,129 INFO    SenderThread:6981 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-11-30 16:41:36,141 DEBUG   HandlerThread:6981 [handler.py:handle_request():138] handle_request: stop_status
+2023-11-30 16:41:36,141 DEBUG   SenderThread:6981 [sender.py:send_request():317] send_request: stop_status
+2023-11-30 16:41:36,284 DEBUG   SenderThread:6981 [sender.py:send():303] send: telemetry
+2023-11-30 16:41:36,669 INFO    Thread-79 :6981 [upload_job.py:push():143] Uploaded file /tmp/tmp43amlzbcwandb/3etv5abi-wandb-metadata.json
+2023-11-30 16:41:37,034 INFO    Thread-75 :6981 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164130-1oyb839t/files/wandb-summary.json
+2023-11-30 16:41:37,034 INFO    Thread-75 :6981 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164130-1oyb839t/files/wandb-metadata.json
+2023-11-30 16:41:37,034 INFO    Thread-75 :6981 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164130-1oyb839t/files/output.log
+2023-11-30 16:41:37,035 INFO    Thread-75 :6981 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164130-1oyb839t/files/requirements.txt
+2023-11-30 16:41:39,033 INFO    Thread-75 :6981 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164130-1oyb839t/files/output.log
+2023-11-30 16:41:51,302 DEBUG   HandlerThread:6981 [handler.py:handle_request():138] handle_request: stop_status
+2023-11-30 16:41:51,302 DEBUG   SenderThread:6981 [sender.py:send_request():317] send_request: stop_status
+2023-11-30 16:41:53,423 DEBUG   HandlerThread:6981 [handler.py:handle_request():138] handle_request: pause
+2023-11-30 16:41:53,424 INFO    HandlerThread:6981 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-11-30 16:41:53,475 DEBUG   SenderThread:6981 [sender.py:send():303] send: stats
+2023-11-30 16:41:55,041 INFO    Thread-75 :6981 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164130-1oyb839t/files/output.log

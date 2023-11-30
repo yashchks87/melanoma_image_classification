@@ -1,0 +1,105 @@
+  0%|          | 0/32 [00:00<?, ?it/s]/home/paperspace/.local/lib/python3.9/site-packages/torch/utils/data/dataloader.py:563: UserWarning: This DataLoader will create 10 worker processes in total. Our suggested max number of worker in current system is 8, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+ 12%|█▎        | 4/32 [00:17<01:12,  2.60s/it]
+tensor(24, device='cuda:0') tensor(0, device='cuda:0')
+tensor(24, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+
+ 28%|██▊       | 9/32 [00:19<00:16,  1.38it/s]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+
+
+ 38%|███▊      | 12/32 [00:23<00:21,  1.06s/it]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+
+ 53%|█████▎    | 17/32 [00:25<00:08,  1.83it/s]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+
+ 62%|██████▎   | 20/32 [00:27<00:05,  2.11it/s]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+
+ 72%|███████▏  | 23/32 [00:31<00:08,  1.09it/s]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+
+ 88%|████████▊ | 28/32 [00:33<00:01,  2.02it/s]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+
+ 94%|█████████▍| 30/32 [00:34<00:00,  2.21it/s]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+100%|██████████| 32/32 [00:37<00:00,  1.17s/it]
+  0%|          | 0/11 [00:00<?, ?it/s]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(8, device='cuda:0') tensor(0, device='cuda:0')
+tensor(8, device='cuda:0') tensor(0, device='cuda:0')
+For train phase : 0.08778499800246209
+For train phase Prec : 1.0
+
+ 91%|█████████ | 10/11 [00:12<00:00,  3.29it/s]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+100%|██████████| 11/11 [00:13<00:00,  1.20s/it]
+  0%|          | 0/32 [00:01<?, ?it/s]
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(32, device='cuda:0') tensor(0, device='cuda:0')
+tensor(8, device='cuda:0') tensor(0, device='cuda:0')
+tensor(8, device='cuda:0') tensor(0, device='cuda:0')
+For val phase : 0.0
+For val phase Prec : 1.0

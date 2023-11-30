@@ -1,0 +1,57 @@
+2023-11-30 16:45:07,680 INFO    StreamThr :12256 [internal.py:wandb_internal():88] W&B internal server running at pid: 12256, started at: 2023-11-30 16:45:07.679154
+2023-11-30 16:45:07,682 DEBUG   HandlerThread:12256 [handler.py:handle_request():138] handle_request: status
+2023-11-30 16:45:07,683 DEBUG   SenderThread:12256 [sender.py:send_request():317] send_request: status
+2023-11-30 16:45:07,684 INFO    WriterThread:12256 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/run-2sx2hftr.wandb
+2023-11-30 16:45:07,685 DEBUG   SenderThread:12256 [sender.py:send():303] send: header
+2023-11-30 16:45:07,685 DEBUG   SenderThread:12256 [sender.py:send():303] send: run
+2023-11-30 16:45:07,997 INFO    SenderThread:12256 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files
+2023-11-30 16:45:07,997 INFO    SenderThread:12256 [sender.py:_start_run_threads():928] run started: 2sx2hftr with start time 1701362706.691339
+2023-11-30 16:45:07,997 DEBUG   SenderThread:12256 [sender.py:send():303] send: summary
+2023-11-30 16:45:07,998 INFO    SenderThread:12256 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-11-30 16:45:07,998 DEBUG   HandlerThread:12256 [handler.py:handle_request():138] handle_request: check_version
+2023-11-30 16:45:07,999 DEBUG   SenderThread:12256 [sender.py:send_request():317] send_request: check_version
+2023-11-30 16:45:08,063 DEBUG   HandlerThread:12256 [handler.py:handle_request():138] handle_request: run_start
+2023-11-30 16:45:08,064 DEBUG   HandlerThread:12256 [meta.py:__init__():34] meta init
+2023-11-30 16:45:08,064 DEBUG   HandlerThread:12256 [meta.py:__init__():49] meta init done
+2023-11-30 16:45:08,064 DEBUG   HandlerThread:12256 [meta.py:probe():215] probe
+2023-11-30 16:45:08,065 DEBUG   HandlerThread:12256 [meta.py:_setup_git():205] setup git
+2023-11-30 16:45:08,085 DEBUG   HandlerThread:12256 [meta.py:_setup_git():212] setup git done
+2023-11-30 16:45:08,085 DEBUG   HandlerThread:12256 [meta.py:_save_pip():53] save pip
+2023-11-30 16:45:08,087 DEBUG   HandlerThread:12256 [meta.py:_save_pip():67] save pip done
+2023-11-30 16:45:08,087 DEBUG   HandlerThread:12256 [meta.py:probe():253] probe done
+2023-11-30 16:45:08,088 DEBUG   SenderThread:12256 [sender.py:send():303] send: files
+2023-11-30 16:45:08,089 INFO    SenderThread:12256 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-11-30 16:45:08,099 DEBUG   HandlerThread:12256 [handler.py:handle_request():138] handle_request: stop_status
+2023-11-30 16:45:08,100 DEBUG   SenderThread:12256 [sender.py:send_request():317] send_request: stop_status
+2023-11-30 16:45:08,308 DEBUG   SenderThread:12256 [sender.py:send():303] send: telemetry
+2023-11-30 16:45:08,564 INFO    Thread-37 :12256 [upload_job.py:push():143] Uploaded file /tmp/tmp17h1cr27wandb/21q53x0s-wandb-metadata.json
+2023-11-30 16:45:08,999 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/requirements.txt
+2023-11-30 16:45:08,999 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/wandb-metadata.json
+2023-11-30 16:45:08,999 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:09,000 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/wandb-summary.json
+2023-11-30 16:45:10,998 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:21,002 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:23,003 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:23,360 DEBUG   HandlerThread:12256 [handler.py:handle_request():138] handle_request: stop_status
+2023-11-30 16:45:23,360 DEBUG   SenderThread:12256 [sender.py:send_request():317] send_request: stop_status
+2023-11-30 16:45:25,004 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:31,006 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:33,007 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:35,008 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:36,395 DEBUG   SenderThread:12256 [sender.py:send():303] send: stats
+2023-11-30 16:45:38,554 DEBUG   HandlerThread:12256 [handler.py:handle_request():138] handle_request: stop_status
+2023-11-30 16:45:38,554 DEBUG   SenderThread:12256 [sender.py:send_request():317] send_request: stop_status
+2023-11-30 16:45:39,011 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/config.yaml
+2023-11-30 16:45:39,012 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:41,012 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:43,013 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:47,015 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:53,746 DEBUG   HandlerThread:12256 [handler.py:handle_request():138] handle_request: stop_status
+2023-11-30 16:45:53,746 DEBUG   SenderThread:12256 [sender.py:send_request():317] send_request: stop_status
+2023-11-30 16:45:58,838 DEBUG   HandlerThread:12256 [handler.py:handle_request():138] handle_request: partial_history
+2023-11-30 16:45:58,841 DEBUG   SenderThread:12256 [sender.py:send():303] send: history
+2023-11-30 16:45:58,842 DEBUG   SenderThread:12256 [sender.py:send():303] send: summary
+2023-11-30 16:45:58,842 INFO    SenderThread:12256 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-11-30 16:45:59,021 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
+2023-11-30 16:45:59,022 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/wandb-summary.json
+2023-11-30 16:46:01,022 INFO    Thread-33 :12256 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/melanoma_image_classification/notebooks/wandb/run-20231130_164501-2sx2hftr/files/output.log
