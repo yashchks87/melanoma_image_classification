@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.0-147-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-11-30T17:47:31.251882",
+    "startedAt": "2023-11-30T17:47:26.539727",
+    "docker": null,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_count": 2,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/yashchks87/melanoma_image_classification.git",
+        "commit": "e203f58fb0353a02a3f01f66587d0b6563910797"
+    },
+    "email": "yashchks87@gmail.com",
+    "root": "/home/paperspace/Documents/melanoma_image_classification",
+    "host": "pst4c5pza",
+    "username": "paperspace",
+    "executable": "/usr/local/bin/python"
+}

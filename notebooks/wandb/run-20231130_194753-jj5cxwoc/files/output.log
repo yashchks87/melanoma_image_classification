@@ -1,0 +1,74 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0: 100%|██████████| 254/254 [05:49<00:00,  1.38s/batch, loss=0.141, prec=0, rec=0]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+For train phase : 0.10552427804420196
+For train phase Prec : 0.0
+For train phase Rec : 0.0
+For val phase : 0.0
+For val phase Prec : 0.0
+Epoch: 0: 100%|██████████| 3/3 [00:24<00:00,  8.22s/batch, loss=0.0219, prec=0, rec=0]
+
+
+
+
+
+
+
+
+
+
+
+
+

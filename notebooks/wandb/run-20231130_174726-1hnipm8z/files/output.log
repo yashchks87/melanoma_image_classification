@@ -1,0 +1,175 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 0: 100%|██████████| 254/254 [05:54<00:00,  1.40s/batch, loss=0.00212, prec=1, rec=1]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+For train phase : 0.016623018803551617
+For train phase Prec : 1.0
+Epoch: 0: 100%|██████████| 3/3 [00:22<00:00,  7.44s/batch, loss=0.00275, prec=1, rec=1]
+  0%|          | 0/254 [00:00<?, ?batch/s]
+For val phase : 0.0
+For val phase Prec : 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 1: 100%|██████████| 254/254 [05:41<00:00,  1.34s/batch, loss=0.000911, prec=1, rec=1]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+For train phase : 0.0017055600251833813
+For train phase Prec : 1.0
+
+Epoch: 1: 100%|██████████| 3/3 [00:24<00:00,  8.08s/batch, loss=0.00124, prec=1, rec=1]
+  0%|          | 0/254 [00:00<?, ?batch/s]
+For val phase : 0.0
+For val phase Prec : 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 2: 100%|██████████| 254/254 [05:36<00:00,  1.32s/batch, loss=0.000799, prec=1, rec=1]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+For train phase : 0.0009738174351903896
+For train phase Prec : 1.0
+For train phase Rec : 1.0
+For val phase : 0.0
+For val phase Prec : 1.0
+Epoch: 2: 100%|██████████| 3/3 [00:22<00:00,  7.53s/batch, loss=0.00095, prec=1, rec=1]
+
